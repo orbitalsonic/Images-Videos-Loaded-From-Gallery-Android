@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Yaqoob/UnderWorking/ImagesLoaderGallery/app/src/main/res/drawable/bg_glide.xml" value="0.3828125" />
+        <entry key="..\:/Yaqoob/UnderWorking/ImagesLoaderGallery/app/src/main/res/drawable/custom_checkbox.xml" value="0.3828125" />
+        <entry key="..\:/Yaqoob/UnderWorking/ImagesLoaderGallery/app/src/main/res/drawable/ic_checked.xml" value="0.3828125" />
+        <entry key="..\:/Yaqoob/UnderWorking/ImagesLoaderGallery/app/src/main/res/drawable/ic_folder_white_30dp.xml" value="0.3828125" />
+        <entry key="..\:/Yaqoob/UnderWorking/ImagesLoaderGallery/app/src/main/res/drawable/ic_unchecked.xml" value="0.3828125" />
+        <entry key="..\:/Yaqoob/UnderWorking/ImagesLoaderGallery/app/src/main/res/layout/activity_images_loader.xml" value="0.2957427536231884" />
+        <entry key="..\:/Yaqoob/UnderWorking/ImagesLoaderGallery/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Yaqoob/UnderWorking/ImagesLoaderGallery/app/src/main/res/layout/activity_videos_loader.xml" value="0.28306159420289856" />
+        <entry key="..\:/Yaqoob/UnderWorking/ImagesLoaderGallery/app/src/main/res/layout/item_gallery.xml" value="0.276268115942029" />
+        <entry key="..\:/Yaqoob/UnderWorking/ImagesLoaderGallery/app/src/main/res/layout/item_image_loader.xml" value="0.2957427536231884" />
+        <entry key="..\:/Yaqoob/UnderWorking/ImagesLoaderGallery/app/src/main/res/layout/item_image_picker_option.xml" value="0.2957427536231884" />
+        <entry key="..\:/Yaqoob/UnderWorking/ImagesLoaderGallery/app/src/main/res/layout/item_images_selected.xml" value="0.2957427536231884" />
+        <entry key="..\:/Yaqoob/UnderWorking/ImagesLoaderGallery/app/src/main/res/layout/item_main_selected.xml" value="0.276268115942029" />
+        <entry key="..\:/Yaqoob/UnderWorking/ImagesLoaderGallery/app/src/main/res/menu/gpa_menu_edit.xml" value="0.36666666666666664" />
+        <entry key="..\:/Yaqoob/UnderWorking/ImagesLoaderGallery/app/src/main/res/menu/note_menu_add.xml" value="0.36666666666666664" />
+        <entry key="..\:/Yaqoob/UnderWorking/ImagesLoaderGallery/app/src/main/res/menu/qr_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

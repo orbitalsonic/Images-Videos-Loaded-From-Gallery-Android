@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Images Loader Gallery</string>
+    <string name="gallery_image">Gallery Image</string>
+    <string name="camera">Camera</string>
+    <string name="todo">TODO</string>
+    <string name="pick_images">Pick Images</string>
+    <string name="pick_videos">Pick Videos</string>
+    <string name="done">Done</string>
+</resources>
