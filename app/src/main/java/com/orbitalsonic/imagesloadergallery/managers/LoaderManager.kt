@@ -45,6 +45,11 @@ class LoaderManager {
             orderBy: String,
             callback: () -> Unit
         ) {
+
+            videoIndex = 0
+            pictureIndex = 0
+            multiMapIndex = 0
+
             val loaderCallbacks = object : LoaderManager.LoaderCallbacks<Cursor> {
                 override fun onCreateLoader(id: Int, args: Bundle?): Loader<Cursor> {
 
@@ -85,19 +90,33 @@ class LoaderManager {
                                 bucket?.let {
                                     if (multiMap.containsKey(it)) {
                                         val listOfValues = multiMap[it]
-                                        listOfValues!!.add(FileItem(multiMapIndex++,dataId, image,false))
+                                        listOfValues!!.add(
+                                            FileItem(
+                                                multiMapIndex++,
+                                                dataId,
+                                                image,
+                                                false
+                                            )
+                                        )
                                         multiMap.put(it, listOfValues)
 
                                     } else {
                                         val listOfValues = ArrayList<FileItem>()
-                                        listOfValues.add(FileItem(multiMapIndex++,dataId, image,false))
+                                        listOfValues.add(
+                                            FileItem(
+                                                multiMapIndex++,
+                                                dataId,
+                                                image,
+                                                false
+                                            )
+                                        )
                                         multiMap.put(it, listOfValues)
                                     }
                                 }
                                 if (id == VIDEOS_CODE) {
-                                    videosList.add(FileItem(videoIndex++,dataId, image,false))
+                                    videosList.add(FileItem(videoIndex++, dataId, image, false))
                                 } else {
-                                    picturesList.add(FileItem(pictureIndex++,dataId, image,false))
+                                    picturesList.add(FileItem(pictureIndex++, dataId, image, false))
                                 }
                             }
                             data.close()
