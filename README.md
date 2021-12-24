@@ -3,4 +3,4 @@ All Images and Videos Loaded From Gallery using ViewModel, Coroutines, and Loade
 
 # Screenshots
 ![alt text](https://github.com/orbitalsonic/Images-Videos-Loaded-From-Gallery-Android/blob/master/Screenshots/Screen2.jpeg?raw=true)
-![https://github.com/orbitalsonic/Images-Videos-Loaded-From-Gallery-Android/blob/master/Screenshots/Screen1.jpeg?raw=true)
+![alt text](https://github.com/orbitalsonic/Images-Videos-Loaded-From-Gallery-Android/blob/master/Screenshots/Screen1.jpeg?raw=true)
